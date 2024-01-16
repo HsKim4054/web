@@ -9,7 +9,7 @@ import { IoMdSend } from "react-icons/io";
 import './img.css';
 import { Button, Input } from 'reactstrap';
 import Modal from 'react-modal';
-import { FaImage, FaStar } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa6";
 import { useWebSocket } from './WebSocketProvider';
 import { FaCamera } from "react-icons/fa";
 

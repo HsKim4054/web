@@ -5,9 +5,7 @@ import {
   NavbarBrand,
 } from 'reactstrap';
 import { Link, useNavigate } from 'react-router-dom';
-import { Stomp } from "@stomp/stompjs";
-import * as SockJS from 'sockjs-client'; //npm install --save sockjs-client
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useWebSocket } from './WebSocketProvider';
 import axios from "axios";

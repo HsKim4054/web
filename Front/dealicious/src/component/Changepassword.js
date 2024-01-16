@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { IoArrowBackOutline } from 'react-icons/io5';
-import { Link, useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 import { Button, FormGroup, Input, Label } from 'reactstrap';
 import axios from 'axios';
 import { useSelector } from 'react-redux';

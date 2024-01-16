@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import { IoArrowBackOutline } from "react-icons/io5";
-import { FaRegStar, FaStar } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa6";
 import { Link, useNavigate } from "react-router-dom";
-import { Button, FormGroup, Label } from "reactstrap";
+import { Button, FormGroup } from "reactstrap";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { FaArrowRight } from "react-icons/fa";

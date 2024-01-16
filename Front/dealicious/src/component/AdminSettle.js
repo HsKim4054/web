@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useState } from 'react';
+import {useEffect, useState } from 'react';
 import Modal from 'react-modal';
-import { Button, Col, FormGroup, Input, Table } from 'reactstrap';
+import { Button, Input, Table } from 'reactstrap';
 import axios from "axios";
 import { useWebSocket } from './WebSocketProvider';
 

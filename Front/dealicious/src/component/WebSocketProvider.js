@@ -3,7 +3,6 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import { Stomp } from '@stomp/stompjs';
 import * as SockJS from 'sockjs-client';
 import { useSelector } from 'react-redux';
-import { MdSunnySnowing } from 'react-icons/md';
 
 const WebSocketContext = createContext();
 

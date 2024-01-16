@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { IoArrowBackOutline } from "react-icons/io5";
 import './img.css';
 import './text.css';

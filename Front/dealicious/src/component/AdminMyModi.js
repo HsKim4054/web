@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react';
-import { GoArrowLeft } from "react-icons/go";
-import { Link } from "react-router-dom";
 import { Button, Input, Table } from 'reactstrap';
 import axios from "axios";
 import { useSelector} from "react-redux";

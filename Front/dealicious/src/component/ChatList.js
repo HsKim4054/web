@@ -1,8 +1,6 @@
 import axios from 'axios';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-import { Stomp } from '@stomp/stompjs'; //npm install --save @stomp/stompjs
-import * as SockJS from 'sockjs-client'; //npm install --save sockjs-client
 import { useSelector } from 'react-redux';
 import { useWebSocket } from './WebSocketProvider';
 import { FaArrowRight } from 'react-icons/fa6';

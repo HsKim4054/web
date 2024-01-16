@@ -1,4 +1,3 @@
-import { IoArrowBackOutline } from "react-icons/io5";
 import { Button, Label } from "reactstrap";
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";

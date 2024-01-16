@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router';
+import { useParams } from 'react-router';
 import { useDispatch } from 'react-redux';
 import axios from 'axios';
 import { useWebSocket } from './WebSocketProvider';

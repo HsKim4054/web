@@ -10,14 +10,6 @@ import { GiCancel } from "react-icons/gi";
 import Swal from 'sweetalert2';
 import { useWebSocket } from './WebSocketProvider';
 
-const formatPrice = (amount) => {
-
-    if (!amount) return '';
-    const numericPrice = parseInt(amount.replace(/[^0-9]/g, ''));
-
-    const formattedPrice = numericPrice.toLocaleString('ko-KR');
-    return `${formattedPrice}원`;
-};
 
 const SaleModify = () => {
     const { url } = useWebSocket();

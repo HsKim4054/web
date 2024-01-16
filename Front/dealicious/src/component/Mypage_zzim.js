@@ -1,8 +1,7 @@
-import { useEffect, useRef, useState } from "react";
-import { IoArrowBackOutline } from "react-icons/io5";
+import { useEffect,  useState } from "react";
 import { FaArrowRight, FaStar } from "react-icons/fa6";
 import { Link, useNavigate } from "react-router-dom";
-import { Button, FormGroup, Input, Label } from "reactstrap";
+import { Button, FormGroup } from "reactstrap";
 import { IoHeartCircleOutline } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";

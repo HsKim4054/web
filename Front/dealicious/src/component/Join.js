@@ -1,8 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Button, FormGroup, Input, Label } from "reactstrap";
 import { CgClose } from "react-icons/cg";
-import { useEffect, useState } from "react";
-import axios from "axios";
+import { useState } from "react";
 
 const Join = () => {
     const [type, setType] = useState(); // 사용자가 선택한 값 저장

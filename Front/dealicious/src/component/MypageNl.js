@@ -1,5 +1,5 @@
 import Avvvatars from "avvvatars-react";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { Button } from "reactstrap";
 
 const MypageNl = () => {
